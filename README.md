@@ -54,7 +54,7 @@ Add views for serving your index.html and static files.
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 urlpatterns = [
-    path("api/", include(router.urls)),
+    path("api/", include(router.urls)), # Django rest framework router
     path("admin/", admin.site.urls),
     re_path("", TemplateView.as_view(template_name="index.html")),
     *staticfiles_urlpatterns(),
