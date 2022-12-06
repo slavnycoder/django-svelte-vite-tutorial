@@ -47,7 +47,7 @@ export default defineConfig({
 ```
 
 
-Then create custom index.html in templates folder.
+Then create custom [index.html](index.html) in templates folder.
 
 Add views for serving your index.html and static files.
 ```python
@@ -85,7 +85,7 @@ MIDDLEWARE = [
 ]
 ```
 
-I use Docker to compile my project. Take a look on my `Dockerfile`.
+I use Docker to compile my project. Take a look on my [Dockerfile](Dockerfile).
 
 1) Build our bundle
 2) Install python dependencies and build yout project
